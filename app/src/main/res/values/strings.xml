@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quote Generator</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kategori">Category</string>
+    <string name="title_activity_inspirational">Inspirational</string>
+    <string name="title_activity_friendship">Friendship</string>
+    <string name="title_activity_tes">Tes</string>
+    <string name="title_activity_tes_image">Generate Quote</string>
+    <string name="action_tes_image">Tes Image</string>
+    <string name="title_activity_pilih_background">Choose Background</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>
