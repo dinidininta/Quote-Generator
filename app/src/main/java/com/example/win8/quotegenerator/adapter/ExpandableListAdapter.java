@@ -1,4 +1,4 @@
-package com.example.win8.quotegenerator;
+package com.example.win8.quotegenerator.adapter;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -8,21 +8,23 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
+import com.example.win8.quotegenerator.R;
+
 import java.util.HashMap;
 import java.util.List;
 
 /**
  * Created by WIN8 on 11/16/2015.
  */
-public class ExpandableList extends BaseExpandableListAdapter {
+public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
     private Context _context;
     private List<String> _listDataHeader; // header titles
     // child data in format of header title, child title
     private HashMap<String, List<String>> _listDataChild;
 
-    public ExpandableList(Context context, List<String> listDataHeader,
-                          HashMap<String, List<String>> listChildData) {
+    public ExpandableListAdapter(Context context, List<String> listDataHeader,
+                                 HashMap<String, List<String>> listChildData) {
         this._context = context;
         this._listDataHeader = listDataHeader;
         this._listDataChild = listChildData;

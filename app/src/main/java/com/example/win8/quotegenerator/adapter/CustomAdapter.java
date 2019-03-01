@@ -1,4 +1,4 @@
-package com.example.win8.quotegenerator;
+package com.example.win8.quotegenerator.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,12 +9,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.example.win8.quotegenerator.R;
+
 /**
  * Created by WIN8 on 11/23/2015.
  */
 public class CustomAdapter extends PagerAdapter {
-    Context context;
-    int[] imageId = {R.drawable.contoh1, R.drawable.contoh2, R.drawable.contoh3, R.drawable.contoh4};
+    private Context context;
+    private int[] imageId = {R.drawable.contoh1, R.drawable.contoh2, R.drawable.contoh3, R.drawable.contoh4};
 
     public CustomAdapter(Context context){
         this.context = context;

@@ -1,33 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
+<items version="2" />
 
-    <item
-        jar="C:\Users\WIN8\AndroidStudioProjects\QuoteGenerator\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\WIN8\AndroidStudioProjects\QuoteGenerator\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-22.0.0_819114424cec7fa4c8e07b89f8965ae1fbaa2d85.jar" />
-    </item>
-    <item
-        jar="C:\Users\WIN8\AndroidStudioProjects\QuoteGenerator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\WIN8\AndroidStudioProjects\QuoteGenerator\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-22.0.0_de468e38f2ea23c1110cbf415b860967b08cf8a2.jar" />
-    </item>
-    <item
-        jar="C:\Users\WIN8\AndroidStudioProjects\QuoteGenerator\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\WIN8\AndroidStudioProjects\QuoteGenerator\app\build\intermediates\pre-dexed\release\internal_impl-22.0.0_07f1df16749d4d38b55cc97cb17a5ad825868f07.jar" />
-    </item>
-    <item
-        jar="C:\Users\WIN8\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\WIN8\AndroidStudioProjects\QuoteGenerator\app\build\intermediates\pre-dexed\release\support-annotations-22.0.0_f67701c585defa178b5429aaaa40d24f2f1ae6aa.jar" />
-    </item>
-
-</items>

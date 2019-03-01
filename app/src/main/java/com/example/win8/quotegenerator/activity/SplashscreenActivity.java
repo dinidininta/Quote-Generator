@@ -1,11 +1,13 @@
-package com.example.win8.quotegenerator;
+package com.example.win8.quotegenerator.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class Splashscreen extends Activity {
+import com.example.win8.quotegenerator.R;
+
+public class SplashscreenActivity extends Activity {
 
     private static int SPLASH_TIME_OUT = 3000;
 
@@ -25,7 +27,7 @@ public class Splashscreen extends Activity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(Splashscreen.this, MainActivity.class);
+                Intent i = new Intent(SplashscreenActivity.this, MainActivity.class);
                 startActivity(i);
 
                 // close this activity

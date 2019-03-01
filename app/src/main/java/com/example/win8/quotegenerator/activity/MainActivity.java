@@ -1,4 +1,4 @@
-package com.example.win8.quotegenerator;
+package com.example.win8.quotegenerator.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
+
+import com.example.win8.quotegenerator.adapter.CustomAdapter;
+import com.example.win8.quotegenerator.R;
 
 public class MainActivity extends Activity{
 
@@ -20,7 +23,7 @@ public class MainActivity extends Activity{
     }
 
     public void startbutton_onClick(View view){
-        Intent intent = new Intent(this, Kategori.class);
+        Intent intent = new Intent(this, CategoryActivity.class);
         startActivity(intent);
     }
 }

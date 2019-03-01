@@ -1,4 +1,4 @@
-package com.example.win8.quotegenerator;
+package com.example.win8.quotegenerator.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+
+import com.example.win8.quotegenerator.R;
 
 /**
  * Created by WIN8 on 11/18/2015.
@@ -33,6 +35,8 @@ public class ImageAdapter extends BaseAdapter {
     public Object getItem(int position) {
         return mThumbIds[position];
     }
+
+    public int getItemAsInt(int position) { return (int)mThumbIds[position]; }
 
     @Override
     public long getItemId(int position) {
